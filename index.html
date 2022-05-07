@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Heart Hospital </title>
+    </head>
+
+    <body>
+ <!-- first table big table -->
+     <table  style="position: fixed; height:100% ;top: 0%; left: 0%; right: 0%;  width: 100%;" >
+         <form method="post" > 
+            <thead>
+             <tr>
+             <th bgcolor="red" width="50%"> <h1>HeartBeat</h1></th> 
+
+<!-- when the tag <th> closes there is a problem of the table  line number 18  -->
+             <th bgcolor="red " width="50%" style="text-align: start;"> 
+
+           
+<!-- second table header -->
+                    <table   table style="width: 100%;">
+                        <form method="post">
+                            <tr>
+                                <td> <label  for="mail1"  >Email: </label>   </td>
+                                <td><label for="pass1">Password: </label></td>
+                            </tr>
+                            <tr>
+                                <td> <input type="email" placeholder="Enter Your Email" id="mail1" name="emailAdress1" autofocus></td>
+                                <td> <input type="password" placeholder="Enter Your Password" id="pass1" name="secretpassword1"></td>
+                            </tr>
+                            <tr>
+                                 <td> <input type="checkbox" id="remember" > 
+                                <label  for="remember">Remember Me</label> </td>
+                                <td><a href="https://www.google.com.eg/" target="blank " title="forgetpassword">ForgetPassword </a></td>
+                                <td><input type="submit" value="Login"></td>
+                            </tr>
+                        </form>
+                    </table>
+<!-- end second tabl  header -->
+            </thead>
+
+          
+                <tr>
+                    <td style="text-align: center;"> 
+                        <img src="img/HeartBeat.jpg" alt="HeartBeats" width="400px" height="400px">
+                            <p>If your heart beats for your friend .
+                                <br> Join us now!
+                             </p>
+                          <td>
+                   
+<!--third table form  -->
+                    <table >      
+              <tr>
+                    <td >    <label for="fullname"> Your Name : </label> </td>
+                    <td><input  type="text"  id="fullname" name="username" > </td> 
+                </tr>
+
+                <tr>
+                    <td> <label for="mail"> Email : </label> </td>
+                    <td> <input  type="email"  id="mail" name="emailAdress"></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="pass"> password : </label> </td>
+                    <td> <input type="password"  id="pass" name="secretpassword"> </td>
+                </tr>
+
+                <tr>
+                  <td> <label  for="gender"> Gender : </label></td>
+                   <td><select name="gender" id="gender">
+                   <option value="male">Male</option>
+                   <option value="female">Female</option>
+                </select></td>
+                </tr>
+    
+                <tr>
+                   <td> <label for="birthday">Date of Birth:</label> </td>
+                   <td> <input type="date" id="birthday" name="birthDay"> </td> 
+                </tr> 
+
+                <tr>
+                    <td> <label for="myfile">Your Photo:</label> </td>
+                    <td><input type="file" id="myfile" name="myFile"> </td> 
+                </tr>
+
+                <tr>
+                    <td> <label for="aboutme" > About Me : </label> </td>
+                    <td> <textarea name="About Me " id="aboutme" cols="50" rows="3" placeholder="We are pleased to know more about you ."></textarea> </td>
+                </tr>
+
+                <tr>
+                   <td> <label for="country" > Country </label> </td>
+                   <td> <input type="text" id="country" name="country"> </td>
+                </tr>
+                <tr>
+                 <td></td>
+                   
+                    <td> <input type="submit" value="Register"> </td>
+                </tr>
+                    </table>
+                </form>
+<!-- end table form  -->
+        <tfoot >
+
+            <td bgcolor="red"> <strong>&copy;copyright</strong>  </td>
+            <td bgcolor="red"></td>
+
+        </tfoot>
+ 
+
+     </table>
+        
+    </body>
+
+
+</html>
